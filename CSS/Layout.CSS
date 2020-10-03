@@ -1,6 +1,32 @@
-
-    margin: 0px;
-    padding: 0px
-    box-sizing: 
-
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
 }
+/* .main-title{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: span;
+    padding-top: 25px;
+}
+/* .About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
