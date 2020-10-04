@@ -1,32 +1,56 @@
 *{
-   box-sizing: border-box;
-   margin: 0px;
+   margin: 5px;
    padding: 0px;
+   box-sizing: border-box;
 }
-/* .main-title{
-display: flex;
-justify-content: center;
-align-items: center;
+.container{
+    background-color:;
+    display: grid;
+    grid-template-rows: 150px auto;
+    margin: 0px auto;
+    max-width: 2000px;
+    width: 90%;
 }
-.title{
+.nav-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-} */
-.navlist{
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: span;
     padding-top: 25px;
 }
-/* .About{
+.main-title{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about_me{
+.job-title{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
+.about-title{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+}
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-title{
+
+}
+.resume-title{
+
+}
+.project-title{
+    
+    }
+.contact-title{
+    
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
