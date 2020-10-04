@@ -16,7 +16,6 @@ html {
     border-radius: 50%;
 }
 .container{
-    background-color:;
     display: grid;
     grid-template-rows: 150px auto;
     margin: 0px auto;
@@ -35,21 +34,39 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: bottom 25px;
+    font-size: 42px;
 }
 .job-title{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+    padding-top: 5px;
 }
 .about-title{
     display: flex;
     flex-direction: column-reverse;
     justify-content:flex-end;
     flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 13px;
+    font-size: 28px;
 }
-.bio{
-    display: flex;
-    flex-wrap: wrap;
+.bio-title{
+    font-size: 18px;
+}
+
+.skills-title{
+    padding-top: 200px;
+    padding-bottom: 13px;
+    font-size: 28px;
+}
+.skills-list{
+    font-size: 50px;
+}
+.resume-title{
+    padding-top: 180px;
 }
 .projects-image{
     width: 250px;
@@ -57,10 +74,13 @@ html {
 .email-image{
     width: 116px;
 }
-    
+.github-image{
+    width: 116px;
 }
+    
 .footer-title{
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
