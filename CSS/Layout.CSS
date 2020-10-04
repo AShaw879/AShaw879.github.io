@@ -3,6 +3,18 @@
    padding: 0px;
    box-sizing: border-box;
 }
+html {
+    margin: 0;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+        url("background-old.jpg");
+    background-size: cover;
+}
+.profile-picture {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
 .container{
     background-color:;
     display: grid;
@@ -16,6 +28,10 @@
     justify-content: space-around;
     align-items: span;
     padding-top: 25px;
+    font-size: 32px;
+}
+.nav-item{
+
 }
 .main-title{
     display: flex;
