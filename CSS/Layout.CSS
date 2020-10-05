@@ -28,8 +28,7 @@ html {
     align-items: span;
     padding-top: 25px;
     font-size: 32px;
-
-}
+   }
 .main-title{
     display: flex;
     justify-content: center;
@@ -63,19 +62,42 @@ html {
     font-size: 28px;
 }
 .skills-list{
+    display: flex;
     font-size: 50px;
 }
 .resume-title{
     padding-top: 180px;
+    padding-bottom: 111px;
+    font-size: 28px;
+}
+.projects{ 
+    margin:25px 25px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.projects-title{
+    padding-top: 100px;
+    padding-bottom: 5px;
+    
 }
 .projects-image{
-    width: 250px;
+    width: 264px;
+  padding-top:5px;
+}
+.contact-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 28px;
+    padding-top: 100px;
 }
 .email-image{
-    width: 116px;
+    width: 90px;
 }
 .github-image{
-    width: 116px;
+    width: 90px;
 }
     
 .footer-title{
